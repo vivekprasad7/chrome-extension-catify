@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Catify",
+    "version": "1.0.0",
+    "description": "Replace all images on site with cute cat images.",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": ["Content.js"]
+        }
+    ]
+}
